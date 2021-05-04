@@ -11,7 +11,7 @@
 #     email.delete(',').split.uniq
 #   end
 # end
-class EmailParser
+class EmailAddressParser
 attr_accessor :emails
 
 def initialize(email)
